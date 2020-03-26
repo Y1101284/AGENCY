@@ -574,7 +574,51 @@ cite img {
     padding-left: -120px;
 }
 
+.sample1 {
+    width: 35vw;
+}
+
 /*MEDIA QUERIES */
+
+@media only screen and (max-width: 1374px) {
+    .sample1 {
+        width: 100vw;
+        padding: 0 1rem !important;
+    }
+
+    .thumbnails {
+        width: 100% !important;
+    }
+
+    .carousel1 {
+        width: 100% !important;
+    }
+
+    .details {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .sample1 {
+        width: 100vw;
+    }
+
+    .thumbnails {
+        width: 100% !important;
+    }
+
+    .carousel1 {
+        width: 100% !important;
+    }
+
+    .details {
+        width: 100%;
+    }
+
+}
 
 @media only screen and (max-width: 820px) {
     .btn {
@@ -590,10 +634,30 @@ cite img {
         padding: 0 30px 0 20px;
     }
 
+    .sample1 {
+        width: 100vw;
+    }
+
+    .thumbnails {
+        width: 100% !important;
+    }
+
+    .carousel1 {
+        width: 100% !important;
+    }
+
+    .details {
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 716px) {
     .span-1-of-3 {
+        width: 100%;
+    }
+
+    .span-2-of-3 {
         width: 100%;
     }
 
@@ -609,6 +673,10 @@ cite img {
         padding: 0 40px;
     }
 
+    .house-heading {
+        font-weight: 12px;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -621,3 +689,34 @@ cite img {
         font-size: 10px;
         padding: 15px 5px 20px 5px;
     }
+
+    .span-2-of-3 {
+        width: 100%;
+    }
+
+    .house-heading {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .price {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .sample1 {
+        width: 100vw;
+    }
+
+    .thumbnails {
+        width: 100% !important;
+    }
+
+    .carousel1 {
+        width: 100% !important;
+    }
+
+    .details {
+        width: 100%;
+    }
+}
