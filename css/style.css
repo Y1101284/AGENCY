@@ -720,3 +720,10 @@ cite img {
         width: 100%;
     }
 }
+
+@media (max-width: 1024px) and (orientation: landscape) {
+     .section-footer {
+      width: 100%;
+      overflow: hidden;
+    } 
+}  
